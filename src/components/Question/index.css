@@ -1,0 +1,41 @@
+.question {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.question .question-wrapper {
+  flex: 1;
+  margin-left: 64px;
+  text-align: right;
+}
+
+.question .question-main {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.question .time {
+  text-align: right;
+  font-size: 12px;
+  color: #aaa;
+  margin: 0 0 8px;
+}
+
+.question .content {
+  max-width: 100%;
+  font-size: 14px;
+  color: #1a1a1a;
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+.question .user {
+  font-size: 16px;
+  color: white;
+  background-color: #fe9e45;
+  border-radius: 6px;
+  margin: 0 12px;
+  height: 40px;
+  width: 40px;
+  line-height: 38px;
+}

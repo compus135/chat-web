@@ -1,0 +1,19 @@
+.PromptWord .title {
+  color: #000;
+  font-weight: bold;
+  margin: 24px 0;
+}
+
+.PromptWord .content {
+  background: #f7f8fa;
+  border-radius: 6px 6px 6px 6px;
+  padding: 8px 8px 24px;
+  position: relative;
+}
+
+.PromptWord .copy {
+  color: #fe9e45;
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+}
