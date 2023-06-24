@@ -2,6 +2,7 @@
   color: #000;
   font-weight: bold;
   margin: 24px 0;
+  font-size: 16px;
 }
 
 .PromptWord .content {
@@ -9,6 +10,7 @@
   border-radius: 6px 6px 6px 6px;
   padding: 8px 8px 24px;
   position: relative;
+  font-size: 14px;
 }
 
 .PromptWord .copy {
