@@ -18,6 +18,7 @@ function App() {
   const [question, setQuestion] = useState();
   const [loading, setLoading] = useState(false);
   const [qaList, setQaList] = useState([]);
+  const [history, setHistory] = useState([]);
 
   const contentRef = useRef();
 
@@ -35,7 +36,7 @@ function App() {
 
   const handleSubmit = () => {
     axios
-      .post("/api/nova/chat", { question, history: [] })
+      .post("/api/nova/chat", { question, history })
       // new Promise((resolve) => {
       //   setTimeout(() => {
       //     const r = {
@@ -81,6 +82,7 @@ function App() {
             time: getFormatDateTime(new Date()),
           },
         ]);
+        setHistory(r.data.history);
       })
       .finally(() => {
         setLoading(false);
